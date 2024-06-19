@@ -20,6 +20,6 @@ jobs:
           distribution: 'adopt'
       - name: Build with Maven
         run: |
-          cd demo
+          cd /home/runner/work/springboot_test/springboot_test
           mvn clean package
   
